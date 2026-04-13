@@ -1,53 +1,50 @@
-# Compiled class files
-*.class
-
-# Log files
+# Logs
 *.log
 hotel-app.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-# Package Files
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
-
-# Maven
+# Build output
 backend/target/
 backend/.mvn/
+node_modules/
+dist/
+dist-ssr/
+frontend/node_modules/
+frontend/dist/
+frontend/build/
 
-# IntelliJ IDEA
+# IDE and editor files
 .idea/
 *.iml
 *.iws
 *.ipr
 out/
-
-# Eclipse
+.vscode/
+.vscode/*
+!.vscode/extensions.json
 .classpath
 .project
 .settings/
 .factorypath
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swp
+*.swo
+*~
 
-# VS Code
-.vscode/
-
-# OS Files
+# OS files
 .DS_Store
 Thumbs.db
 
 # Environment
 .env
 *.env
-
-# Node Modules (Frontend)
-frontend/node_modules/
-frontend/dist/
-frontend/build/
-
-# Misc
-*.swp
-*.swo
-*~
+*.local

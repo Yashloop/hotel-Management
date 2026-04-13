@@ -4,6 +4,8 @@
 
 A full-stack Hotel Booking Application with Spring Boot backend and React frontend featuring JWT authentication, role-based access control, and email notifications.
 
+Frontend app files from `frontend-1` now live at the repository root (`src/`, `public/`, `package.json`, `vite.config.js`).
+
 ---
 
 ## 📁 Project Structure
